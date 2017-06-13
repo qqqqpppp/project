@@ -1,0 +1,10 @@
+# include <stdio.h>
+# include <string.h>
+# define LEN 60
+int main (void)
+{
+        char dStr[LEN] = {0,};
+        printf ("String data input : ");
+        gets(dStr);
+        return 0;
+}

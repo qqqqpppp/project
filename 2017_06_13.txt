@@ -1,0 +1,16 @@
+# include <stdio.h>
+void f(int p1, int p2, int p3)
+{
+        int fuValue1 = p1;
+        int fuValue2 = p2;
+        int fuValue3 = p3;
+}
+int main(void)
+{
+        char str[] = "hello world";
+        int a = 10;
+        int b = 20;
+        int c = 30;
+        f(a, b, c);
+        return 0;
+}
